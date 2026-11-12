@@ -1,0 +1,322 @@
+[
+  {
+    "am pm": "pm",
+    "task name": "NullTask",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "month": "September",
+    "action": "E:/GlobalData/Tasks/EngineTasks/0_NullTask.bat",
+    "time": "11:00",
+    "schedule type": "Once",
+    "recurring": "",
+    "event": "",
+    "day": "2"
+  },
+  {
+    "event": "NullTask",
+    "am pm": "",
+    "recurring": "",
+    "month": "",
+    "schedule type": "Event",
+    "time": "",
+    "action": "E:/GlobalData/Tasks/EngineTasks/WellForecastEconomics.bat",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "task name": "ForecastWellEconomics",
+    "day": ""
+  },
+  {
+    "event": "NullTask",
+    "am pm": "",
+    "recurring": "",
+    "month": "",
+    "schedule type": "Event",
+    "time": "",
+    "action": "E:/GlobalData/Tasks/EngineTasks/WellForecastProduction.bat",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "task name": "ForecastWellProduction",
+    "day": ""
+  },
+  {
+    "event": "",
+    "am pm": "am",
+    "recurring": "",
+    "month": "July",
+    "schedule type": "Once",
+    "time": "1:00",
+    "action": "Z:/GlobalData/Tasks/EngineTasks/0_NullTask.bat",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "task name": "0_Null_Task",
+    "day": "8"
+  },
+  {
+    "am pm": "",
+    "task name": "1_1_WellEngineTask_Import",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "month": "",
+    "action": "E:/GlobalData/Tasks/WellEngineTasks/1_1_WellEngineTask_Import.bat",
+    "time": "",
+    "schedule type": "Event",
+    "recurring": "",
+    "event": "0_Null_Task",
+    "day": ""
+  },
+  {
+    "event": "0_Null_Task",
+    "am pm": "",
+    "recurring": "",
+    "month": "",
+    "schedule type": "Event",
+    "time": "",
+    "action": "E:/GlobalData/Tasks/WellEngineTasks/3_6_WellEngineTask_UpdateCost.bat",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "task name": "3_6_WellEngineTask_UpdateCost",
+    "day": ""
+  },
+  {
+    "event": "0_Null_Task",
+    "am pm": "",
+    "recurring": "",
+    "month": "",
+    "schedule type": "Event",
+    "time": "",
+    "action": "E:/GlobalData/Tasks/WellEngineTasks/5_1_WellEngineTask_PostProcess.bat",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "task name": "5_1_WellEngineTask_PostProcess",
+    "day": ""
+  },
+  {
+    "am pm": "    ",
+    "task name": "                                                          ",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "month": "",
+    "action": "                                                              ",
+    "time": "",
+    "schedule type": "                                   ",
+    "recurring": "",
+    "event": "",
+    "day": "0"
+  },
+  {
+    "am pm": "",
+    "task name": "2_1_WellEngineTask_UpdateTables",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "month": "",
+    "action": "E:/GlobalData/Tasks/WellEngineTasks/2_1_WellEngineTask_UpdateTables.bat",
+    "time": "",
+    "schedule type": "Event",
+    "recurring": "",
+    "event": "1_1_WellEngineTask_Import",
+    "day": ""
+  },
+  {
+    "am pm": "",
+    "task name": "3_0_WellEngineTask_UpdateParams",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "month": "",
+    "action": "E:/GlobalData/Tasks/WellEngineTasks/3_0_WellEngineTask_UpdateParams.bat",
+    "time": "",
+    "schedule type": "Event",
+    "recurring": "",
+    "event": "2_1_WellEngineTask_UpdateTables",
+    "day": ""
+  },
+  {
+    "am pm": "",
+    "task name": "4_0_WellEngineTask_Forecast",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "month": "",
+    "action": "E:/GlobalData/Tasks/WellEngineTasks/4_0_WellEngineTask_Forecast.bat",
+    "time": "",
+    "schedule type": "Event",
+    "recurring": "",
+    "event": "3_6_WellEngineTask_UpdateCost",
+    "day": ""
+  },
+  {
+    "am pm": "",
+    "task name": "6_1_WellEngineTask_Export",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "month": "",
+    "action": "E:/GlobalData/Tasks/WellEngineTasks/6_1_WellEngineTask_Export.bat",
+    "time": "",
+    "schedule type": "Event",
+    "recurring": "",
+    "event": "5_1_WellEngineTask_PostProcess",
+    "day": ""
+  },
+  {
+    "am pm": "",
+    "task name": "1_0_WellEngineTask_EngineList_Wells",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "month": "",
+    "action": "E:/GlobalData/Tasks/WellEngineTasks/1_0_WellEngineTask_EngineList_Wells.bat",
+    "time": "",
+    "schedule type": "Event",
+    "recurring": "",
+    "event": "0_Null_Task",
+    "day": ""
+  },
+  {
+    "event": "0_Null_Task",
+    "am pm": "",
+    "recurring": "",
+    "month": "",
+    "schedule type": "Event",
+    "time": "",
+    "action": "E:/GlobalData/Tasks/WellEngineTasks/1_0_WellEngineTask_EngineList_Texas.bat",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "task name": "1_0_WellEngineTask_EngineList_Texas",
+    "day": ""
+  },
+  {
+    "am pm": "",
+    "task name": "1_0_WellEngineTask_EngineList_States",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "month": "",
+    "action": "E:/GlobalData/Tasks/WellEngineTasks/1_0_WellEngineTask_EngineList_States.bat",
+    "time": "",
+    "schedule type": "Event",
+    "recurring": "",
+    "event": "0_Null_Task",
+    "day": ""
+  },
+  {
+    "event": "0_Null_Task",
+    "am pm": "",
+    "recurring": "",
+    "month": "",
+    "schedule type": "Event",
+    "time": "",
+    "action": "E:/GlobalData/Tasks/WellEngineTasks/1_0_WellEngineTask_EngineList_Non_Texas.bat",
+    "days of week": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "task name": "1_0_WellEngineTask_EngineList_Non_Texas",
+    "day": ""
+  }
+]

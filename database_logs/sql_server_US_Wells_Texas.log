@@ -1,0 +1,24 @@
+Database log for sql_server/US_Wells_Texas Created On: 2020-07-23 03:49:30
+Executed At:			Execution Time:		Command Text:
+
+2020-07-23 03:49:30		00:00:02			UPDATE tx_well_details SET process_code=1 WHERE well_id IN (SELECT DISTINCT WellID FROM US_Wells.dbo.tblUSWell_Parameters WHERE State_Name='Texas');
+
+2020-07-23 03:49:32		00:00:02			UPDATE tx_well_details
+                                              SET well_id=b.WellID
+                                              FROM tx_well_details a, US_Wells.dbo.tblUSWell_Details b
+                                              WHERE a.tx_well_id=b.API_14;
+
+2020-07-23 03:50:54		00:00:00			UPDATE tx_well_details SET process_code=2 WHERE well_id IN (SELECT DISTINCT WellID FROM US_Wells.dbo.tblUSWell_Parameters WHERE State_Name!='Texas');
+
+2020-07-23 03:50:56		00:00:02			UPDATE tx_well_details
+                                              SET well_id=b.WellID
+                                              FROM tx_well_details a, US_Wells.dbo.tblUSWell_Parameters b
+                                              WHERE a.tx_well_id=b.API_Number;
+
+2020-07-23 03:52:45		00:00:00			UPDATE tx_well_details SET process_code=2 WHERE well_id IN (SELECT DISTINCT WellID FROM US_Wells.dbo.tblUSWell_Parameters WHERE State_Name!='Texas');
+
+2020-07-23 03:52:47		00:00:02			UPDATE tx_well_details
+                                              SET well_id=b.WellID
+                                              FROM tx_well_details a, US_Wells.dbo.tblUSWell_Parameters b
+                                              WHERE a.tx_well_id=b.API_Number;
+
